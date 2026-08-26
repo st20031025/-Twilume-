@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TWILUME｜自助下單區</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, "Noto Sans TC", sans-serif;
+      background: #f7f7f5;
+      color: #222;
+    }
+
+    header {
+      padding: 28px 20px 20px;
+      text-align: center;
+      background: #fff;
+    }
+
+    .logo {
+      font-size: 28px;
+      letter-spacing: 5px;
+      font-weight: 500;
+    }
+
+    .subtitle {
+      margin-top: 8px;
+      font-size: 11px;
+      letter-spacing: 3px;
+      color: #888;
+    }
+
+    .hero {
+      padding: 70px 25px;
+      text-align: center;
+      background: #e9e9e5;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+      font-weight: 400;
+      letter-spacing: 3px;
+    }
+
+    .hero p {
+      margin-top: 15px;
+      color: #666;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .shop-button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 13px 32px;
+      background: #222;
+      color: #fff;
+      text-decoration: none;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    .categories {
+      display: flex;
+      justify-content: center;
+      gap: 22px;
+      padding: 25px 10px;
+      background: #fff;
+      font-size: 11px;
+      letter-spacing: 1px;
+    }
+
+    .products {
+      padding: 35px 18px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 18px;
+      letter-spacing: 3px;
+      margin-bottom: 25px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .product {
+      background: #fff;
+      padding-bottom: 18px;
+    }
+
+    .product-image {
+      height: 190px;
+      background: #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #888;
+      font-size: 12px;
+    }
+
+    .product-info {
+      padding: 14px;
+    }
+
+    .product-name {
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .product-price {
+      margin-top: 7px;
+      font-size: 13px;
+    }
+
+    .footer {
+      padding: 40px 20px;
+      text-align: center;
+      background: #222;
+      color: #fff;
+    }
+
+    .footer p {
+      font-size: 11px;
+      letter-spacing: 2px;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">TWILUME</div>
+    <div class="subtitle">SELECT SHOP</div>
+  </header>
+
+  <section class="hero">
+    <h1>自助下單區</h1>
+    <p>
+      韓國・海外精選代購<br>
+      Find something you love.
+    </p>
+
+    <a href="#shop" class="shop-button">SHOP NOW</a>
+  </section>
+
+  <nav class="categories">
+    <span>ALL</span>
+    <span>FASHION</span>
+    <span>BEAUTY</span>
+    <span>LIFE</span>
+  </nav>
+
+  <section class="products" id="shop">
+
+    <div class="section-title">
+      NEW ARRIVAL
+    </div>
+
+    <div class="product-grid">
+
+      <div class="product">
+        <div class="product-image">
+          PRODUCT IMAGE
+        </div>
+
+        <div class="product-info">
+          <div class="product-name">
+            韓國精選商品 A
+          </div>
+
+          <div class="product-price">
+            NT$ 1,280
+          </div>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-image">
+          PRODUCT IMAGE
+        </div>
+
+        <div class="product-info">
+          <div class="product-name">
+            韓國精選商品 B
+          </div>
+
+          <div class="product-price">
+            NT$ 1,580
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <p>TWILUME © 2026</p>
+  </footer>
+
+</body>
+</html>
