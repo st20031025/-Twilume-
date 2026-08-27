@@ -182,5 +182,27 @@
 
   </main>
 
-</body>
+<script>
+  const cartButton = document.querySelector('.cart');
+
+  cartButton.addEventListener('click', function () {
+    const option = document.querySelector('select').value;
+
+    if (option === '請選擇規格') {
+      alert('請先選擇商品規格');
+      return;
+    }
+
+    const product = {
+      name: '韓國精選商品 A',
+      price: 1280,
+      option: option,
+      quantity: 1
+    };
+
+    localStorage.setItem('twilumeCart', JSON.stringify(product));
+
+    alert('已加入購物車！');
+  });
+</script></body>
 </html>
