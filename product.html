@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>商品｜TWILUME</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, "Noto Sans TC", sans-serif;
+      background: #f7f7f5;
+      color: #222;
+    }
+
+    header {
+      padding: 25px 20px;
+      text-align: center;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+    }
+
+    .logo {
+      font-size: 24px;
+      letter-spacing: 5px;
+    }
+
+    .back {
+      display: block;
+      margin-top: 10px;
+      color: #777;
+      font-size: 12px;
+      text-decoration: none;
+    }
+
+    .product {
+      padding: 25px 18px 50px;
+    }
+
+    .image {
+      height: 360px;
+      background: #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #888;
+      font-size: 12px;
+    }
+
+    .info {
+      padding: 25px 5px;
+    }
+
+    .name {
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+
+    .price {
+      margin-top: 12px;
+      font-size: 17px;
+    }
+
+    .label {
+      margin-top: 28px;
+      margin-bottom: 10px;
+      font-size: 11px;
+      letter-spacing: 2px;
+      color: #777;
+    }
+
+    select {
+      width: 100%;
+      padding: 13px;
+      border: 1px solid #ddd;
+      background: #fff;
+      font-size: 13px;
+    }
+
+    .quantity {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 130px;
+      border: 1px solid #ddd;
+      background: #fff;
+    }
+
+    .quantity button {
+      width: 40px;
+      height: 40px;
+      border: none;
+      background: #fff;
+      font-size: 18px;
+    }
+
+    .quantity span {
+      font-size: 14px;
+    }
+
+    .cart {
+      width: 100%;
+      margin-top: 30px;
+      padding: 16px;
+      border: none;
+      background: #222;
+      color: #fff;
+      font-size: 13px;
+      letter-spacing: 2px;
+    }
+
+    .description {
+      margin-top: 30px;
+      padding-top: 25px;
+      border-top: 1px solid #ddd;
+      font-size: 13px;
+      line-height: 2;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">TWILUME</div>
+    <a href="index.html" class="back">← BACK TO SHOP</a>
+  </header>
+
+  <main class="product">
+
+    <div class="image">
+      PRODUCT IMAGE
+    </div>
+
+    <div class="info">
+
+      <div class="name">
+        韓國精選商品 A
+      </div>
+
+      <div class="price">
+        NT$ 1,280
+      </div>
+
+      <div class="label">
+        OPTION
+      </div>
+
+      <select>
+        <option>請選擇規格</option>
+        <option>黑色 / Free Size</option>
+        <option>灰色 / Free Size</option>
+      </select>
+
+      <div class="label">
+        QUANTITY
+      </div>
+
+      <div class="quantity">
+        <button type="button">−</button>
+        <span>1</span>
+        <button type="button">＋</button>
+      </div>
+
+      <button class="cart">
+        ADD TO CART
+      </button>
+
+      <div class="description">
+        韓國・海外精選代購商品。<br>
+        商品皆依照實際商品資訊提供規格與價格。<br>
+        下單前請確認商品尺寸、顏色及代購相關注意事項。
+      </div>
+
+    </div>
+
+  </main>
+
+</body>
+</html>
